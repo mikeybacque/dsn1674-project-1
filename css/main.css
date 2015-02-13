@@ -4,18 +4,41 @@ body {
 
 header {
   background-color: #fee33f;
+  text-align: center;
+  padding-bottom: .25em;
 }
 
 h1 {
   font-family: 'Sigmar One', cursive;
+  color: #b13153;
   margin: 0;
 }
 
 ol {
   margin: 0.5em;
+  padding: 0;
 }
 
 nav li {
   display: inline-block;
-  background-color: #ca3b66;
+  background-color: #b1a129;
+  padding: .75em;
+  border-radius: .5em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #ca3b66
+}
+
+main {
+  margin: .5em
+}
+
+p {
+  line-height: 1.25
 }
