@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #fee33f;
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  margin: 0;
+}
+
+ol {
+  margin: 0.5em;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #ca3b66;
+}
